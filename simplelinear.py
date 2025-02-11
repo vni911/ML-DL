@@ -16,10 +16,6 @@ def load_data():
     
     return train_X, test_X, train_y, test_y
 
-"""
-   사이킷런에 구현되어 있는  단순 선형회귀 모델을 불러옵니다.
-    불러온 모델을 학습용 데이터에 맞춰 학습시킵니다.
-"""
 def regression_model(train_X, train_y):
     
     simplelinear = LinearRegression()
